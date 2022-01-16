@@ -1,0 +1,24 @@
+/*
+Explora las diferencias entre las palabras claves var y let
+Uno de los mayores problemas con la declaración de variables utilizando la palabra clave var es que tú puedes fácilmente sobrescribir declaraciones de variables:
+
+var camper = "James";
+var camper = "David";
+console.log(camper);
+En el código anterior, la variable camper se declara originalmente como James, y se anula para ser David. La consola después muestra la cadena de texto David.
+
+*/
+
+/*
+Explora las diferencias entre las palabras claves var y let
+Uno de los mayores problemas con la declaración de variables utilizando la palabra clave var es que tú puedes fácilmente sobrescribir declaraciones de variables:
+
+var camper = "James";
+var camper = "David";
+console.log(camper);
+En el código anterior, la variable camper se declara originalmente como James, y se anula para ser David. La consola después muestra la cadena de texto David.
+*/
+
+let catName = "Oliver";
+let catSound = "Meow!";
+console.log(catName);
